@@ -1,5 +1,5 @@
 ﻿<#.EXAMPLE
-.\Rename-AzOSDisk.ps1 -resourceGroup [ResourceGroupName] -VMName [VMName] -osdiskName [OSDiskName] -Verbose
+.\Rename-AzOSDisk.ps1 -dresourceGroup [ResourceGroupName] -VMName [VMName] -osdiskName [OSDiskName] -Verbose
 This example will rename the OS Disk for the specified VM, you need to specify the Resource Group name, VM name and the new OS disk name.
 Then the script will use the Swap OS disk feature in Azure and change the OS disk on the fly.
 #>
